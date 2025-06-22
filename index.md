@@ -54,7 +54,7 @@ puzzlegame拼图游戏
   </div>
   3.注册
   <div align="center">
-    <img src="images/注册.pnj" alt="注册" width="400">
+    <img src="images/注册.png" alt="注册" width="400">
   </div>
 ## 团队成员负责模块
 
