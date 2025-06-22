@@ -50,11 +50,11 @@ puzzlegame拼图游戏
   </div>
 2.登录
 <div align="center">
-    <img src="images/about登录.jpg" alt="登录" width="400">
+    <img src="images/登录.png" alt="登录" width="400">
   </div>
   3.注册
   <div align="center">
-    <img src="images/about注册.jpg" alt="注册" width="400">
+    <img src="images/注册.pnj" alt="注册" width="400">
   </div>
 ## 团队成员负责模块
 
