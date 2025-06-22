@@ -157,7 +157,7 @@ puzzlegame拼图游戏
 
 |姓名|GitHub用户名|负责模块|主要工作|
 |-|-|-|-|
-|宋兆琪|yhts139|构建GameJFrame,User,App和打包||实现游戏内部逻辑功能|
+|宋兆琪|yhts139|构建GameJFrame,User,App和打包|实现游戏内部逻辑功能|
 |杨博文|dmhmd877|构建LoginJFrame,RegisterJFrame和CodeUtil|实现用户注册和登录功能。|
 ## 项目Git地址
 
