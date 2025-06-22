@@ -1,13 +1,13 @@
 ---
 layout: home
-title: 天气查询系统设计完整博客
+title: puzzlegame拼图游戏完整博客
 ---
 
 # 项目名称
-天气查询系统
+puzzlegame拼图游戏
 
 ## 项目简介
-天气查询系统是一款基于 Java Swing 的桌面应用程序，旨在为用户提供便捷的天气查询服务。用户可以通过登录系统查看当前城市的天气信息，并支持切换城市、修改背景图片等功能。系统采用模块化设计，易于扩展和维护。
+"Java 拼图小游戏" 是一个基于 Java Swing 开发的桌面应用程序，旨在为用户提供一个经典而有趣的拼图游戏体验。游戏将完整图片分割成若干小块并随机打乱，玩家需要通过鼠标点击移动拼图块，尝试在最短时间内将图片还原成完整状态
 
 ## 项目采用技术
 
@@ -15,92 +15,155 @@ title: 天气查询系统设计完整博客
 |-|-|
 |Java Swing|用于实现桌面应用程序的图形用户界面 (GUI)，提供美观且易用的用户交互界面。|
 |MySQL|用于存储用户信息、城市编码和天气数据，保证数据的持久化和高效查询。|
-|Maven|用于实现自动化打包。|
-|Jsoup (HtmlParser)  |用于从天气网站抓取实时天气信息，实现天气数据的自动更新（爬虫）。|
-|数据库连接池|提高数据库访问效率。|
-| MVC 模式|采用 MVC 架构，提升代码的分层管理和可维护性，降低模块耦合度。|
 |配置文件| 通过外部配置文件管理数据库连接、界面设置等参数，便于灵活调整和部署。|
 |Git| 用于版本控制和团队协作，确保代码管理规范，支持多人协作开发。|
-|Issue 管理|通过 GitHub Issue 推进项目进度，分配任务，跟踪问题与优化建议。|
-|容错处理|在用户输入和系统操作中加入完善的容错机制，提高系统健壮性和用户体验。|
-
 ## 功能需求分析
 1. 用户管理
-    - 用户注册：支持用户注册，填写用户名、密码、密保问题和地区。
+    - 用户注册：支持用户注册，填写用户名、密码。
     - 用户登录：验证用户名和密码，登录系统。
-    - 密码重置：通过密保问题验证后重置密码。
-    - 用户信息容错校验：对用户输入进行有效性和安全性检查，防止异常输入。
-2. 天气查询
-    - 自动显示用户所在地区的天气信息。
-    - 支持切换城市，动态更新天气信息。
-    - 天气查询失败自动重试与错误提示，保障用户体验。
-3. 界面设置
-    - 支持修改窗口大小（小、中、大）。
-    - 支持更改背景图片（春、夏、秋、冬）。
-    - 界面美观，风格统一，提升整体视觉体验。
-    - 配置文件驱动界面设置，便于个性化调整。
+2. 游戏功能
+    - 可以预览还原之后的图片
+    - 支持切换图片，显示完成步数
+    - 显示成功之后胜利信息。
 4. 数据管理
-    - 城市编码和天气信息存储在 MySQL 数据库中。
-    - 支持从数据库动态加载城市列表和天气信息。
+    - 用户的账号密码信息存储在 MySQL 数据库中。
     - 使用数据库连接池提升数据访问效率。
 5. 其他功能与特点
-    - 采用 MVC 架构模式，分为数据层（DatabaseUtils和UserUtils等），视图层（ui包），控制层（散在各个JFrame类），模块职责清晰。
-    - 项目采用 Git 进行代码管理，团队协作流畅。
-    - 使用 Issue 持续推进项目，跟踪开发进度与问题反馈。
-    - 完善的容错处理，系统稳定性强。
-
+    - 项目通过 Git 高效管理代码，保障团队协作的流畅性与高效性。
 ## 项目亮点
-1. **模块化设计与高可维护性**  
-   - 用户管理、天气查询、界面设置等功能模块独立，采用 MVC 与 DAO 分层架构，便于维护和扩展。
-2. **动态天气更新与爬虫集成**  
-   - 使用 Jsoup 实现天气数据爬取，自动抓取并更新数据库中的实时天气信息，提升数据时效性。
-3. **个性化与美观界面体验**  
-   - 用户可灵活调整窗口大小与背景图片，界面美观，配置文件支持自定义设置，满足多样化需求。
+1. **注册登录界面通俗易懂**  
+   - 账号密码登录简易方便，便于用户进行操作
+2. **游戏界面样式多样**  
+   -游戏内部图片具有随机性，拥有不同的图片可供游玩
+3. **账号密码输入安全**  
+   - 登录系统采取验证码登入设置，有效保障用户账号安全
 4. **高效数据管理**  
-   - MySQL 数据库存储，配合数据库连接池优化性能，支持大规模数据读写与高并发访问。
-5. **团队高效协作与敏捷开发**  
-   - 项目全程使用 Git 进行版本控制，利用 Issue 进行任务分配和进度追踪，团队分工明确，开发效率高。
-6. **完善的容错机制**  
-   - 用户各类输入均有严格校验并给出友好提示，系统关键节点均有异常处理，保障稳定运行。
-
+   - 采用MYSQL数据库进行数据管理，高效且便捷
+5. **团队高效协作**  
+   - 项目使用 Git 进行控制，团队协作好，效率高
 ## 主要功能截图
 
 ### 主要功能截图
-1. 登录界面  
+1. 背景图片
   <div align="center">
-    <img src="images/login.png" alt="登录界面" width="400">
+    <img src="images/backgroung.png" alt="背景图片" width="400">
   </div>
-2. 注册界面
+2. 胜利图标
   <div align="center">
-    <img src="images/register.png" alt="注册界面" width="400">
+    <img src="images/win.png" alt="胜利" width="400">
   </div>
-3. 修改密码界面
+3. 关于我们
   <div align="center">
-    <img src="images/changepassword.png" alt="修改密码界面" width="400">
+    <img src="images/about.jpg" alt="关于我们" width="400">
   </div>
-4. 主页面  
+4. 游戏内容 
   <div align="center">
-    <img src="images/app.png" alt="主页面" width="400">
+    <img src="images/animal/animal1/all.jpg" alt="动物1" width="400">
   </div>
-5. 其它功能  
+   <div align="center">
+    <img src="images/animal/animal2/all.jpg" alt="动物2" width="400">
+  </div>
+   <div align="center">
+    <img src="images/animal/animal3/all.jpg" alt="动物3" width="400">
+  </div>
+   <div align="center">
+    <img src="images/animal/animal4/all.jpg" alt="动物4" width="400">
+  </div>
+   <div align="center">
+    <img src="images/animal/animal5/all.jpg" alt="动物5" width="400">
+  </div>
+   <div align="center">
+    <img src="images/animal/animal6/all.jpg" alt="动物6" width="400">
+  </div>
   <div align="center">
-    <img src="images/setting.png" alt="其它功能" width="400">
+    <img src="images/animal/animal7/all.jpg" alt="动物7" width="400">
   </div>
+  <div align="center">
+    <img src="images/animal/animal8/all.jpg" alt="动物8" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/gril1/all.jpg" alt="女1" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl2/all.jpg" alt="女2" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl3/all.jpg" alt="女3" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl4/all.jpg" alt="女4" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl5/all.jpg" alt="女5" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl6/all.jpg" alt="女6" width="400">
+  </div>
+  <div align="center">
+    <img src="images/girl/girl7/all.jpg" alt="女7" width="400">
+  </div>
+  <div align="center">
+    <img src="images/girl/girl8/all.jpg" alt="女8" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl9/all.jpg" alt="女9" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl10/all.jpg" alt="女10" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl11/all.jpg" alt="女11" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl12/all.jpg" alt="女12" width="400">
+  </div>
+   <div align="center">
+    <img src="images/girl/girl13/all.jpg" alt="女13" width="400">
+  </div>
+   </div>
+   <div align="center">
+    <img src="images/sport/sport/all.jpg" alt="运动1" width="400">
+  </div>
+   <div align="center">
+    <img src="images/sport/sport2/all.jpg" alt="运动2" width="400">
+  </div>
+   <div align="center">
+    <img src="images/sport/sport3/all.jpg" alt="运动3" width="400">
+  </div>
+   <div align="center">
+    <img src="images/sport/sport4/all.jpg" alt="运动4" width="400">
+  </div>
+   <div align="center">
+    <img src="images/sport/sport5/all.jpg" alt="运动5" width="400">
+  </div>
+   <div align="center">
+    <img src="images/sport/sport6/all.jpg" alt="运动6" width="400">
+  </div>
+  <div align="center">
+    <img src="images/sport/sport7/all.jpg" alt="运动7" width="400">
+  </div>
+  <div align="center">
+    <img src="images/sport/sport8/all.jpg" alt="运动8" width="400">
+  </div>
+   <div align="center">
+    <img src="images/sport/sport9/all.jpg" alt="运动9" width="400">
+  </div>
+   <div align="center">
+    <img src="images/sport/sport10/all.jpg" alt="运动10" width="400">
+  </div>
+
 
 ## 团队成员负责模块
 
 |姓名|GitHub用户名|负责模块|主要工作|
 |-|-|-|-|
-|刘乐飞|LiXinGDBW|数据库，工具类与天气查询模块|构建AppJFrame,DatabaseUtils,WeatherInfoManager和WeatherUtils，数据库更新与修改；使用 Jsoup 抓取天气数据并存储到数据库中；完成天气查询功能的实现。|
-|魏祥涵|suisuiyuanpingan|用户管理模块|构建LoginJFrame,RegisterJFrame和UserUtils，实现用户注册和登录功能。|
-|张博文|ZBW-king|界面设置与背景管理模块|构建App,BackgroundUtils和RechangePasswordJFrame，实现窗口大小调整和背景图片更改功能；实现用户更改密码功能。|
-
+|宋兆琪|yhts139|构建GameJFrame,User,App和打包||实现游戏内部逻辑功能|
+|杨博文|dmhmd877|构建LoginJFrame,RegisterJFrame和CodeUtil|实现用户注册和登录功能。|
 ## 项目Git地址
-[https://github.com/LiXinGDBW/WeatherApp](https://github.com/LiXinGDBW/WeatherApp)
+
 
 ## 成员github地址
-- 刘乐飞：[https://github.com/LiXinGDBW](https://github.com/LiXinGDBW)
-- 魏祥涵：[https://github.com/suisuiyuanpingan](https://github.com/suisuiyuanpingan)
-- 张博文：[https://github.com/ZBW-king](https://github.com/ZBW-king)
+- 宋兆琪：[https://github.com/yhts139](https://github.com/yhts)
+- 杨博文：[https://github.com/dmhmd877](https://github.com/dmhmd877)
 
 ---
