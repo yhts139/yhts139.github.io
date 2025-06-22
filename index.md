@@ -46,15 +46,15 @@ puzzlegame拼图游戏
 ### 主要功能截图
 1. 关于我们
   <div align="center">
-    <img src="images/about.jpg" alt="关于我们" width="400">
+    <img src="image/about.jpg" alt="关于我们" width="400">
   </div>
 2.登录
 <div align="center">
-    <img src="images/登录.png" alt="登录" width="400">
+    <img src="image/登录.png" alt="登录" width="400">
   </div>
   3.注册
   <div align="center">
-    <img src="images/注册.png" alt="注册" width="400">
+    <img src="image/注册.png" alt="注册" width="400">
   </div>
 ## 团队成员负责模块
 
