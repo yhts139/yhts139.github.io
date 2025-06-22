@@ -44,115 +44,18 @@ puzzlegame拼图游戏
 ## 主要功能截图
 
 ### 主要功能截图
-1. 背景图片
-  <div align="center">
-    <img src="images/backgroung.png" alt="背景图片" width="400">
-  </div>
-2. 胜利图标
-  <div align="center">
-    <img src="images/win.png" alt="胜利" width="400">
-  </div>
-3. 关于我们
+1. 关于我们
   <div align="center">
     <img src="images/about.jpg" alt="关于我们" width="400">
   </div>
-4. 游戏内容 
+2.登录
+<div align="center">
+    <img src="images/about登录.jpg" alt="登录" width="400">
+  </div>
+  3.注册
   <div align="center">
-    <img src="images/animal/animal1/all.jpg" alt="动物1" width="400">
+    <img src="images/about注册.jpg" alt="注册" width="400">
   </div>
-   <div align="center">
-    <img src="images/animal/animal2/all.jpg" alt="动物2" width="400">
-  </div>
-   <div align="center">
-    <img src="images/animal/animal3/all.jpg" alt="动物3" width="400">
-  </div>
-   <div align="center">
-    <img src="images/animal/animal4/all.jpg" alt="动物4" width="400">
-  </div>
-   <div align="center">
-    <img src="images/animal/animal5/all.jpg" alt="动物5" width="400">
-  </div>
-   <div align="center">
-    <img src="images/animal/animal6/all.jpg" alt="动物6" width="400">
-  </div>
-  <div align="center">
-    <img src="images/animal/animal7/all.jpg" alt="动物7" width="400">
-  </div>
-  <div align="center">
-    <img src="images/animal/animal8/all.jpg" alt="动物8" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/gril1/all.jpg" alt="女1" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl2/all.jpg" alt="女2" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl3/all.jpg" alt="女3" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl4/all.jpg" alt="女4" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl5/all.jpg" alt="女5" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl6/all.jpg" alt="女6" width="400">
-  </div>
-  <div align="center">
-    <img src="images/girl/girl7/all.jpg" alt="女7" width="400">
-  </div>
-  <div align="center">
-    <img src="images/girl/girl8/all.jpg" alt="女8" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl9/all.jpg" alt="女9" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl10/all.jpg" alt="女10" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl11/all.jpg" alt="女11" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl12/all.jpg" alt="女12" width="400">
-  </div>
-   <div align="center">
-    <img src="images/girl/girl13/all.jpg" alt="女13" width="400">
-  </div>
-   </div>
-   <div align="center">
-    <img src="images/sport/sport/all.jpg" alt="运动1" width="400">
-  </div>
-   <div align="center">
-    <img src="images/sport/sport2/all.jpg" alt="运动2" width="400">
-  </div>
-   <div align="center">
-    <img src="images/sport/sport3/all.jpg" alt="运动3" width="400">
-  </div>
-   <div align="center">
-    <img src="images/sport/sport4/all.jpg" alt="运动4" width="400">
-  </div>
-   <div align="center">
-    <img src="images/sport/sport5/all.jpg" alt="运动5" width="400">
-  </div>
-   <div align="center">
-    <img src="images/sport/sport6/all.jpg" alt="运动6" width="400">
-  </div>
-  <div align="center">
-    <img src="images/sport/sport7/all.jpg" alt="运动7" width="400">
-  </div>
-  <div align="center">
-    <img src="images/sport/sport8/all.jpg" alt="运动8" width="400">
-  </div>
-   <div align="center">
-    <img src="images/sport/sport9/all.jpg" alt="运动9" width="400">
-  </div>
-   <div align="center">
-    <img src="images/sport/sport10/all.jpg" alt="运动10" width="400">
-  </div>
-
-
 ## 团队成员负责模块
 
 |姓名|GitHub用户名|负责模块|主要工作|
@@ -163,7 +66,7 @@ puzzlegame拼图游戏
 
 
 ## 成员github地址
-- 宋兆琪：[https://github.com/yhts139](https://github.com/yhts)
+- 宋兆琦：[https://github.com/yhts139](https://github.com/yhts)
 - 杨博文：[https://github.com/dmhmd877](https://github.com/dmhmd877)
 
 ---
